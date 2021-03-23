@@ -21,8 +21,16 @@
   },
   "repositories":[
     {
-        "type":"git",
-        "url":"http://github.com/coolmut/yandex"
+      "type":"package",
+      "package":{
+        "name":"coolmut/yandex",
+        "version":"dev-master",
+        "source":{
+          "type":"git",
+          "url":"http://github.com/coolmut/yandex",
+          "reference":"master"
+        }
+      }
     }
   ]
   "require-dev": {
