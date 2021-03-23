@@ -1,5 +1,5 @@
 {
-  "name": "arhitector/yandex",
+  "name": "coolmut/yandex",
   "description": "PHP SDK для работы с некоторыми сервисами яндекса (Яндекс.Диск, Yandex.Disk)",
   "keywords": ["yandex", "disk", "диск", "яндекс", "php", "curl", "api", "client", "sdk",
     "yandex disk", "яндекс диск", "rest", "restful", "яндекс"],
@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Arhitector\\Yandex\\": "src/"
+      "Coolmut\\Yandex\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Arhitector\\Yandex\\Tests\\": "tests/"
+      "Coolmut\\Yandex\\Tests\\": "tests/"
     }
   },
   "scripts": {
