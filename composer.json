@@ -1,5 +1,5 @@
 {
-  "name": "coolmut/yandex",
+  "name": "arhitector/yandex",
   "description": "PHP SDK для работы с некоторыми сервисами яндекса (Яндекс.Диск, Yandex.Disk)",
   "keywords": ["yandex", "disk", "диск", "яндекс", "php", "curl", "api", "client", "sdk",
     "yandex disk", "яндекс диск", "rest", "restful", "яндекс"],
@@ -16,23 +16,8 @@
     "league/event": "^2.2",
     "php-http/curl-client": "2.*",
     "php-http/message": "^1.2",
-    "php-http/client-common": "^1.1",
-    "coolmut/yandex":"dev-master",
+    "php-http/client-common": "^1.1"
   },
-  "repositories":[
-    {
-      "type":"package",
-      "package":{
-        "name":"coolmut/yandex",
-        "version":"dev-master",
-        "source":{
-          "type":"git",
-          "url":"http://github.com/coolmut/yandex",
-          "reference":"master"
-        }
-      }
-    }
-  ]
   "require-dev": {
     "phpunit/phpunit": "^9.4"
   },
