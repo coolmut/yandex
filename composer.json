@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Coolmut\\Yandex\\": "src/"
+      "Arhitector\\Yandex\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Coolmut\\Yandex\\Tests\\": "tests/"
+      "Arhitector\\Yandex\\Tests\\": "tests/"
     }
   },
   "scripts": {
